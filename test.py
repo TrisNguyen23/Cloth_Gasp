@@ -39,4 +39,4 @@ def process_folder(image_folder, mask_folder):
         generate_mask(image_path, output_path)
 
 if __name__ == "__main__":
-    process_folder("./images", "./masks")
+    process_folder("./dataset/images/", "./masks")
